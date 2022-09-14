@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className='text-center text-7xl text-red-600'>
         CHARITY BEGINS AT HOME
       </div>
     </div>
