@@ -1,10 +1,23 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Navbar from 'components/Navbar';
+import { themeChange } from "theme-change";
+
 
 function App() {
+
+  useEffect(() => {
+    themeChange(false);
+  }, []);
   return (
-    <div className="h-screen bg-gradient-to-br from-purple-500 to-pink-500">
+    <div className=" bg-[#ffed66] h-screen">
       <Navbar />
+      <button
+        data-toggle-theme="dark,light"
+        data-act-class="ACTIVECLASS"
+        className=" p-4"
+      >
+        toggler button
+      </button>
     </div>
   );
 }

@@ -94,6 +94,7 @@ const Navbar: FC<NavbarProps> = () => {
         </ul>
       </div>
       <div className="navbar-end">
+        
         <a className="btn">Donate</a>
       </div>
     </div>

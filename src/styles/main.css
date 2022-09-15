@@ -2864,6 +2864,10 @@ html {
   padding: 0px;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
