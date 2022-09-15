@@ -16,7 +16,7 @@ function App() {
         data-act-class="ACTIVECLASS"
         className=" p-4"
       >
-        toggler button
+        Poggler button
       </button>
     </div>
   );

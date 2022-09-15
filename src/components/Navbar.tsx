@@ -6,7 +6,7 @@ interface NavbarProps {
  
 const Navbar: FC<NavbarProps> = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-[#00cecb]">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,10 +27,10 @@ const Navbar: FC<NavbarProps> = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
           >
             <li>
-              <a>Item 1</a>
+              <a className="active:bg-violet-700">Item 1</a>
             </li>
             <li tabIndex={0}>
               <a className="justify-between">
@@ -59,12 +59,14 @@ const Navbar: FC<NavbarProps> = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Imaginary Friends</a>
+        <a className="btn btn-ghost normal-case text-xl hover:bg-red-800">
+          Imaginary Friends
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
           <li>
-            <a>Item 1</a>
+            <a className="active:bg-red-800">Item 1</a>
           </li>
           <li tabIndex={0}>
             <a>
@@ -94,7 +96,6 @@ const Navbar: FC<NavbarProps> = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        
         <a className="btn">Donate</a>
       </div>
     </div>
