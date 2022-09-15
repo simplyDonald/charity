@@ -4,6 +4,6 @@ import Navbar from "../Navbar";
 
 test("renders daisy ui", () => {
   render(<Navbar />);
-  const linkElement = screen.getByText(/daisyUI/i);
+  const linkElement = screen.getByText(/imaginary friends/i);
   expect(linkElement).toBeInTheDocument();
 });

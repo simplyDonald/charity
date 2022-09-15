@@ -59,7 +59,7 @@ const Navbar: FC<NavbarProps> = () => {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">Charity</a>
+        <a className="btn btn-ghost normal-case text-xl">Imaginary Friends</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">

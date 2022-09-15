@@ -3,7 +3,7 @@ import Navbar from 'components/Navbar';
 
 function App() {
   return (
-    <div className=" bg-red-600">
+    <div className="h-screen bg-gradient-to-br from-purple-500 to-pink-500">
       <Navbar />
     </div>
   );
