@@ -6,7 +6,7 @@ interface NavbarProps {
  
 const Navbar: FC<NavbarProps> = () => {
   return (
-    <div className="navbar bg-[#00cecb]">
+    <div className="navbar bg-[#00cecb] h-44">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
