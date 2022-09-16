@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react';
 import Navbar from 'components/Navbar';
+import Footer from "components/Footer";
 import { themeChange } from "theme-change";
 
 
@@ -76,6 +77,12 @@ function App() {
           </a>
         </div>
       </nav>
+      <div className=" h-2/3"></div>
+      <div className="bg-[#ff5e5b] h-52"> Pretty</div>
+
+      <div className=" h-52 bg-[#d8d8d8] text-white">hello world</div>
+
+      <Footer />
     </div>
   );
 }
