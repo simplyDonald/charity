@@ -4,9 +4,9 @@ interface IHeroProps {
 }
 
 const Hero: FC<IHeroProps> = (props) => {
-let style: {backgroundImage: string} = {
-  backgroundImage: 'url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")'
-}
+let style: { backgroundImage: string } = {
+  backgroundImage: "url(/assets/hero-bg.jpg)",
+};
 
   return (
     <div
