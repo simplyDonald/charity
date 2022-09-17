@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import Navbar from 'components/Navbar';
 import Navbar2 from 'components/Navbar2';
 import Footer from "components/Footer";
+import Section1 from 'components/Section1';
 import { themeChange } from "theme-change";
 
 
@@ -15,7 +16,7 @@ function App() {
       <Navbar />
       <Navbar2 />
       <div className=" h-2/3"></div>
-      <div className="bg-[#ff5e5b] h-52"> Pretty</div>
+      <Section1 />
 
       <div className=" h-52 bg-[#d8d8d8] text-white">hello world</div>
 

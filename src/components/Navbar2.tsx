@@ -1,14 +1,28 @@
-import {FC} from 'react';
+import {FC, useEffect} from 'react';
+
+
+
+
+
+
+
 
 interface Navbar2Props {
   
 }
  
 const Navbar2: FC<Navbar2Props> = () => {
+
+  
+
+  useEffect(() => {
+    console.log(`here it is`,activeNavClass);
+    console.log(`here is the type`, typeof activeNavClass);
+
+  }, [activeNavClass]);
   return (
-    <nav className=" bg-white shadow dark:bg-gray-800 relative">
+    <nav className=" bg-white shadow dark:bg-gray-800">
       <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
-        
         <a
           href="#"
           className="text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6"
