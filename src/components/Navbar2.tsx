@@ -23,10 +23,7 @@ const Navbar2: FC<Navbar2Props> = () => {
       <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
         {arrNavigation.map((item)=> <NavbarItem {...item} />)}
 
-        <a
-          href="#"
-          className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
-        >
+        <NavbarItem>
           <svg
             className="w-4 h-4 fill-current"
             viewBox="0 0 24 24"
@@ -40,7 +37,9 @@ const Navbar2: FC<Navbar2Props> = () => {
               fill="currentColor"
             />
           </svg>
-        </a>
+
+        </NavbarItem>
+        
 
         <a
           href="#"

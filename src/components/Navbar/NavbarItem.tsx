@@ -2,8 +2,9 @@ import React, {FC} from 'react';
 import classNames from "classnames";
 
 export interface INavbarItemProps {
-  name: string;
-  href: string;
+  name?: string;
+  href?: string;
+  children?: React.ReactNode;
 }
 
 
@@ -17,10 +18,11 @@ export default function NavbarItem (props: INavbarItemProps) {
     "text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6"
   );
   return (
-    <a href={props.href}
+    <a href={props.href ?? "#"}
     className={regNavClass}
     >
       {props.name} 
+      {props.children}
     </a>
   );
 }
