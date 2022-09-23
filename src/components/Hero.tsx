@@ -9,10 +9,8 @@ let style: { backgroundImage: string } = {
 };
 
   return (
-    <div
-      className="w-full bg-center bg-cover h-3/4"
-      style={style}
-    >
+    <div className="w-full bg-center bg-cover h-3/4 relative" style={style}>
+      
       <div className="flex items-center justify-center w-full h-full ">
         <div className="text-center">
           <h1 className="text-2xl font-semibold text-white uppercase lg:text-3xl">

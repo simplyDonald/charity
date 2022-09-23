@@ -3,7 +3,7 @@ import Navbar from 'components/Navbar';
 import Navbar2 from 'components/Navbar2';
 import Hero from 'components/Hero';
 import Footer from "components/Footer";
-import Section1 from 'components/Section1';
+import Section from 'components/Section';
 import { themeChange } from "theme-change";
 
 
@@ -18,8 +18,10 @@ function App() {
       <Navbar />
       <Navbar2 />
       <Hero />
-      <div className=" h-2/3"></div>
-      <Section1 />
+      <div className=" h-2/3">
+        
+      </div>
+      <Section />
 
       <div className=" h-52 bg-[#d8d8d8] relative text-black">
         hello world

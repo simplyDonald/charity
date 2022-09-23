@@ -14,7 +14,7 @@ const Footer: FC<FooterProps> = () => {
             <div className="w-full -mx-6 lg:w-2/5">
                 <div className="px-6">
                     <div>
-                        <a href="#" className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Brand</a>
+                        <a href="#" className="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300">Imaginary Friends</a>
                     </div>
 
                     <p className="max-w-sm mt-2 text-gray-500 dark:text-gray-400">Join 31,000+ other and never miss out on new tips, tutorials, and more.</p>
@@ -88,7 +88,7 @@ const Footer: FC<FooterProps> = () => {
         <hr className="h-px my-6 bg-gray-200 border-none dark:bg-gray-700" />
 
         <div>
-            <p className="text-center text-gray-500 dark:text-gray-400">© Brand 2020 - All rights reserved</p>
+            <p className="text-center text-gray-500 dark:text-gray-400">© Imaginary Friends 2022 - All rights reserved</p>
         </div>
     </div>
 </footer>
