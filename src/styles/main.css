@@ -2243,6 +2243,10 @@ html {
   height: 1rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -2346,6 +2350,11 @@ html {
 .bg-\[\#1985a1\] {
   --tw-bg-opacity: 1;
   background-color: rgba(25, 133, 161, var(--tw-bg-opacity));
+}
+
+.bg-\[\#ffed66\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 237, 102, var(--tw-bg-opacity));
 }
 
 .bg-cover {

@@ -3,7 +3,8 @@ import Navbar from 'components/Navbar';
 import Navbar2 from 'components/Navbar2';
 import Hero from 'components/Hero';
 import Footer from "components/Footer";
-import Section from 'components/Section';
+import SectionA from 'components/SectionA';
+import Section1 from 'components/Section1';
 import { themeChange } from "theme-change";
 
 
@@ -12,16 +13,14 @@ function App() {
 
   useEffect(() => {
     themeChange(false);
-  }, []);
+  }, []);                                           
   return (
-    <div className=" bg-[#f4f4f9] h-screen relative ">
+    <div className=" bg-[#ffed66] h-screen relative ">
       <Navbar />
       <Navbar2 />
       <Hero />
-      <div className=" h-2/3">
-        
-      </div>
-      <Section />
+      <Section1 />
+      <SectionA />
 
       <div className=" h-52 bg-[#d8d8d8] relative text-black">
         hello world
