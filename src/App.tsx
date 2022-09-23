@@ -5,6 +5,7 @@ import Hero from 'components/Hero';
 import Footer from "components/Footer";
 import SectionA from 'components/SectionA';
 import Section1 from 'components/Section1';
+import Section2 from 'components/Section2';
 import { themeChange } from "theme-change";
 
 
@@ -20,6 +21,7 @@ function App() {
       <Navbar2 />
       <Hero />
       <Section1 />
+      <Section2 />
       <SectionA />
 
       <div className=" h-52 bg-[#d8d8d8] relative text-black">
