@@ -2264,6 +2264,10 @@ html {
   height: 1.5rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .w-full {
   width: 100%;
 }

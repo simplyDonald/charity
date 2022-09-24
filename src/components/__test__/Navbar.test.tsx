@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import Navbar from "../Navbar";
+import Navbar from "../Navbar/Navbar";
 
 test("renders daisy ui", () => {
   render(<Navbar />);
