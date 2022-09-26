@@ -4,6 +4,7 @@ import Navbar2 from 'components/Navbar/Navbar2';
 import Home from 'components/Index/Home';
 import About from 'components/About';
 import Footer from "components/Footer";
+import Page404 from "components/Page404"
 
 
 //theme changer change for daisyUI
@@ -27,6 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<Page404 />} />
         </Routes>
         <Footer />
       </BrowserRouter>
