@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import Navbar2 from "./Navbar/Navbar2"
+import Navbar2 from "./Navbar2"
 
 interface NavbarProps {
   

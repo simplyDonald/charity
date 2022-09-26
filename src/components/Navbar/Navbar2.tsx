@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import NavbarItem from '../NavbarItem';
+import NavbarItem from './NavbarItem';
 
 
 export const arrNavigation: { name: string; href: string }[] = [
