@@ -5,8 +5,8 @@ import NavbarItem from './NavbarItem';
 export const arrNavigation: { name: string; href: string }[] = [
   { name: "home", href: "/" },
   { name: "about", href: "/about" },
-  { name: "contact", href: "#" },
-  { name: "blog", href: "#" }
+  { name: "contact", href: "/" },
+  { name: "blog", href: "/" }
 ]; 
 
 interface Navbar2Props {
@@ -20,7 +20,7 @@ const Navbar2: FC<Navbar2Props> = () => {
   
   return (
     <nav className=" bg-white shadow dark:bg-gray-800">
-      <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+      <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 dark:text-gray-300">
         {arrNavigation.map((item)=> <NavbarItem key={item.name} {...item} />)}
 
         <NavbarItem>
