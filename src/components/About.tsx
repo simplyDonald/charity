@@ -5,7 +5,7 @@ interface IAboutProps {
 
 const About: FC<IAboutProps> = (props) => {
   return (
-    <div className="text-black bg-orange-600">
+    <div className="text-black bg-orange-600 h-screen">
       About me
     </div>
   );

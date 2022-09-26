@@ -2224,10 +2224,6 @@ html {
   height: 100vh;
 }
 
-.h-52 {
-  height: 13rem;
-}
-
 .h-5 {
   height: 1.25rem;
 }
@@ -2242,6 +2238,10 @@ html {
 
 .h-full {
   height: 100%;
+}
+
+.h-52 {
+  height: 13rem;
 }
 
 .h-6 {
@@ -2358,11 +2358,6 @@ html {
   background-color: rgba(255, 237, 102, var(--tw-bg-opacity));
 }
 
-.bg-\[\#d8d8d8\] {
-  --tw-bg-opacity: 1;
-  background-color: rgba(216, 216, 216, var(--tw-bg-opacity));
-}
-
 .bg-\[white\] {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
@@ -2376,6 +2371,11 @@ html {
 .bg-blue-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(37, 99, 235, var(--tw-bg-opacity));
+}
+
+.bg-\[\#d8d8d8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgba(216, 216, 216, var(--tw-bg-opacity));
 }
 
 .bg-white {

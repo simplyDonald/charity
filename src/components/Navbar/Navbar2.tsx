@@ -3,8 +3,8 @@ import NavbarItem from './NavbarItem';
 
 
 export const arrNavigation: { name: string; href: string }[] = [
-  { name: "home", href: "#" },
-  { name: "about", href: "#" },
+  { name: "home", href: "/" },
+  { name: "about", href: "/about" },
   { name: "contact", href: "#" },
   { name: "blog", href: "#" }
 ]; 

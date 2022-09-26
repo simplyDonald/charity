@@ -1,4 +1,5 @@
-import React from 'react';                                                                  
+import React from 'react';       
+import { Link } from "react-router-dom";
 import classNames from "classnames";
 
 export interface INavbarItemProps {
@@ -18,11 +19,11 @@ export default function NavbarItem ({href, name, children}: INavbarItemProps) {
     "text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6"
   );
   return (
-    <a href={href ?? "#"}
-    className={regNavClass}
-    >
-      {name} 
-      {children}
-    </a>
+    <Link to={href ?? "/"}>
+      <a href={href ?? "#"} className={regNavClass}>
+        {name}
+        {children}
+      </a>
+    </Link>
   );
 }
