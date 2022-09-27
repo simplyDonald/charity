@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "MarkWeb";
+  src: url("../../public/assets/fonts/MarkWebPro.woff2.ttf");
+  
+}
+
 .custom-shape-divider-bottom-1663900606 {
     position: absolute;
     bottom: 0;

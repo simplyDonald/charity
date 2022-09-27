@@ -371,7 +371,7 @@ ul {
  */
 
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: MarkWeb, sans-serif;
   /* 1 */
   line-height: 1.5;
   /* 2 */
@@ -2472,6 +2472,11 @@ html {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2484,12 +2489,24 @@ html {
   font-weight: 500;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
 
 .capitalize {
   text-transform: capitalize;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .tracking-tight {
@@ -2548,6 +2565,12 @@ html {
 
 .duration-150 {
   transition-duration: 150ms;
+}
+
+@font-face {
+  font-family: "MarkWeb";
+
+  src: url("../../public/assets/fonts/MarkWebPro.woff2.ttf");
 }
 
 .custom-shape-divider-bottom-1663900606 {
